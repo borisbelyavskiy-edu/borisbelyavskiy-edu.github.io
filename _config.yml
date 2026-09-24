@@ -1,0 +1,20 @@
+title: Boris Belyavskiy
+description: Strategy consultant and sociologist working on how people and organizations change in the age of AI.
+url: "https://borisbelyavskiy-edu.github.io"
+baseurl: ""
+lang: en
+timezone: America/Los_Angeles
+markdown: kramdown
+permalink: pretty
+exclude:
+  - README.md
+  - PLAN.md
+  - replit.md
+  - attached_assets
+  - .local
+  - .agents
+  - screenshots
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor

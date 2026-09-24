@@ -31,6 +31,6 @@ The site will present Boris as a strategy consultant and sociologist focused on 
 
 - GitHub username: `borisbelyavskiy-edu`.
 - ORCID: `0000-0002-5174-8719`.
-- A public `mailto:` link is desired, but the actual email address was not supplied. The contact page will use a clearly marked placeholder until the address is provided.
+- Public email link: `boris-belyavskiy@berkeley.edu` (included because the user confirmed they are comfortable making it public).
 - No separate LinkedIn URL, profile photo, logo, or additional project case studies were supplied; these will not be invented.
 - The site will be structured for GitHub Pages publishing from the `main` branch and repository root.
