@@ -1,0 +1,1 @@
+- [Lighthouse CLI verification](lighthouse-cli.md) — disable the optional error-reporting prompt for reliable non-interactive audits.

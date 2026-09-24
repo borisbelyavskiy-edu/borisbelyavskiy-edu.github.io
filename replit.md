@@ -1,45 +1,26 @@
-# [Project name]
+# Boris Belyavskiy personal site
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+This project is a root-level, publish-ready Jekyll portfolio for Boris Belyavskiy. GitHub Pages should publish from the `main` branch and `/` (root).
 
-## Run & Operate
+## Run & operate
 
-- `pnpm --filter @workspace/api-server run dev` — run the API server (port 5000)
-- `pnpm run typecheck` — full typecheck across all packages
-- `pnpm run build` — typecheck + build all packages
-- `pnpm --filter @workspace/api-spec run codegen` — regenerate API hooks and Zod schemas from the OpenAPI spec
-- `pnpm --filter @workspace/db run push` — push DB schema changes (dev only)
-- Required env: `DATABASE_URL` — Postgres connection string
+- GitHub Pages builds the site automatically from the Markdown and Liquid files.
+- To preview locally, install Ruby, Bundler, and Jekyll, then run `jekyll serve`.
+- No backend, database, JavaScript application, or external service is required.
 
-## Stack
+## Site map
 
-- pnpm workspaces, Node.js 24, TypeScript 5.9
-- API: Express 5
-- DB: PostgreSQL + Drizzle ORM
-- Validation: Zod (`zod/v4`), `drizzle-zod`
-- API codegen: Orval (from OpenAPI spec)
-- Build: esbuild (CJS bundle)
+- `index.md` — home page and positioning
+- `about.md` — biography, research, and teaching
+- `experience.md` — professional experience and selected outcomes
+- `contact.md` — public email, GitHub, and ORCID links
+- `_layouts/default.html` — shared document shell and SEO tags
+- `_includes/header.html` and `_includes/footer.html` — shared navigation and footer
+- `assets/css/style.css` — responsive dark editorial visual system
+- `assets/favicon.svg`, `sitemap.xml`, and `robots.txt` — publishing and discovery support
 
-## Where things live
+## Content rules
 
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
-
-## Architecture decisions
-
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
-
-## Product
-
-_Describe the high-level user-facing capabilities of this app once they exist._
-
-## User preferences
-
-_Populate as you build — explicit user instructions worth remembering across sessions._
-
-## Gotchas
-
-_Populate as you build — sharp edges, "always run X before Y" rules._
-
-## Pointers
-
-- See the `pnpm-workspace` skill for workspace structure, TypeScript setup, and package details
+- Keep professional claims grounded in the supplied biography and experience.
+- Put page content in Markdown/front matter; keep shared structure in layouts/includes.
+- Use `relative_url` for internal links so the site remains compatible with GitHub Pages path settings.
