@@ -4,7 +4,7 @@ title: Strategy, sociology, and change
 description: Boris Belyavskiy is a strategy consultant and sociologist working on how people and organizations change in the age of AI.
 ---
 
-<main>
+<main class="home-colors">
   <section class="hero shell" aria-labelledby="hero-title">
     <div class="hero__meta">
       <p class="eyebrow">Boris Belyavskiy <span aria-hidden="true">/</span> Strategy &amp; sociology</p>

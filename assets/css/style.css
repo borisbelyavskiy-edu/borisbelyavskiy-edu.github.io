@@ -325,3 +325,36 @@ h1 em, h2 em, .footer-cta em {
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition-duration: 0.01ms !important; }
 }
+
+/* Text color pass for the homepage content in index.md. */
+.home-colors {
+  --home-text: #edf0f8;
+  --home-muted: #c8cddd;
+  --home-subtle: #a9b4c7;
+  --home-accent: #c4a8ff;
+  --home-dark: #17304d;
+  --home-dark-muted: #59667b;
+  --home-dark-accent: #6447ae;
+  color: var(--home-text);
+}
+
+.home-colors .hero__location,
+.home-colors .pathway__number,
+.home-colors .eyebrow:not(.eyebrow--accent) { color: var(--home-subtle); }
+
+.home-colors .eyebrow--accent,
+.home-colors h1 em,
+.home-colors .section-index,
+.home-colors .hero__aside-label,
+.home-colors .pathway:hover { color: var(--home-accent); }
+
+.home-colors .hero__lede,
+.home-colors .hero__aside-title,
+.home-colors .body-large,
+.home-colors .text-link { color: var(--home-muted); }
+
+.home-colors .signal-band { color: var(--home-dark); }
+.home-colors .signal-band .eyebrow,
+.home-colors .signal-label { color: var(--home-dark-muted); }
+.home-colors .signal-number { color: var(--home-dark-accent); }
+.home-colors .button--light { color: var(--home-dark); }
