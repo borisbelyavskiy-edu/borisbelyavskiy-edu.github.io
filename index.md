@@ -71,8 +71,13 @@ description: Boris Belyavskiy is a strategy consultant and sociologist working o
           <span class="pathway__title">About &amp; research</span>
           <span class="pathway__arrow" aria-hidden="true">↗</span>
         </a>
-        <a class="pathway" href="{{ '/contact/' | relative_url }}">
+        <a class="pathway" href="{{ '/research/' | relative_url }}">
           <span class="pathway__number">03</span>
+          <span class="pathway__title">Research &amp; publications</span>
+          <span class="pathway__arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="pathway" href="{{ '/contact/' | relative_url }}">
+          <span class="pathway__number">04</span>
           <span class="pathway__title">Start a conversation</span>
           <span class="pathway__arrow" aria-hidden="true">↗</span>
         </a>
