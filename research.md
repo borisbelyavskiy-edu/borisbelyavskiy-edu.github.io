@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Research
-description: Selected publications by Boris Belyavskiy with DOI resolver and HSE publication links.
+description: Selected publications by Boris Belyavskiy with publisher DOI links and HSE portal records.
 permalink: /research/
 ---
 
@@ -9,7 +9,7 @@ permalink: /research/
   <header class="page-intro">
     <p class="eyebrow">Research &amp; publications</p>
     <h1>Publications &amp; preprints.</h1>
-    <p class="page-intro__lede">Ten distinct works from the public ORCID record, ordered newest first. DOI links are included where listed, with HSE publication links for the three titles below.</p>
+    <p class="page-intro__lede">Ten distinct works from the public ORCID record, ordered newest first. Four HSE portal publications link directly to their HSE records; DOI links are retained for the other works.</p>
   </header>
 
   <section class="research-section" aria-labelledby="publications-title">
@@ -55,7 +55,6 @@ permalink: /research/
             <h3 class="publication__title">The Enemy of My Enemy or About the Uniting Potential of Market Radicalism</h3>
             <p class="publication__details">Journal of Economic Sociology</p>
             <div class="publication__links">
-              <a class="publication__doi" href="https://doi.org/10.17323/1726-3247-2020-2-76-90" rel="noopener noreferrer">DOI: 10.17323/1726-3247-2020-2-76-90 ↗</a>
               <a class="publication__record" href="https://ecsoc.hse.ru/user/setLocale/en_US?source=%2Findex.php%2Fecsoc%2Farticle%2Fview%2F10680" rel="noopener noreferrer">HSE journal page ↗</a>
             </div>
           </div>
@@ -66,7 +65,6 @@ permalink: /research/
             <h3 class="publication__title">Social Embeddedness as a Business Goal: New Theoretical Implications from the Case of a Global Value Chain</h3>
             <p class="publication__details">Journal of Economic Sociology · Vol. 21, No. 3, pp. 151–173</p>
             <div class="publication__links">
-              <a class="publication__doi" href="https://doi.org/10.17323/1726-3247-2020-3-151-173" rel="noopener noreferrer">DOI: 10.17323/1726-3247-2020-3-151-173 ↗</a>
               <a class="publication__record" href="https://publications.hse.ru/view/394594660" rel="noopener noreferrer">HSE publication record ↗</a>
             </div>
           </div>
@@ -85,7 +83,6 @@ permalink: /research/
             <h3 class="publication__title">The Future We Create: Fixtional Expectations as a Tool of Social Dynamics</h3>
             <p class="publication__details">Journal of Economic Sociology · Vol. 20, No. 4, pp. 142–150</p>
             <div class="publication__links">
-              <a class="publication__doi" href="https://doi.org/10.17323/1726-3247-2019-4-142-150" rel="noopener noreferrer">DOI: 10.17323/1726-3247-2019-4-142-150 ↗</a>
               <a class="publication__record" href="https://publications.hse.ru/articles/310131238" rel="noopener noreferrer">HSE publication record ↗</a>
             </div>
           </div>
@@ -107,7 +104,7 @@ permalink: /research/
           </div>
         </li>
       </ol>
-      <p class="research-record-note">The 2021 INTER article appears twice in the ORCID work entries with the same DOI; it is listed once here. HSE links supplement the DOI resolvers for the three works shown above. The 2018 chapter links to its HSE record because no DOI is listed.</p>
+      <p class="research-record-note">The 2021 INTER article appears twice in the ORCID work entries with the same DOI; it is listed once here. The four HSE portal publications link only to their HSE records. DOI links are retained for the other works where listed.</p>
     </div>
   </section>
 </main>
